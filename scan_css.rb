@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 class CSSHelper
   def initialize(file_name = nil)
     @files = file_name.nil? ? Dir['app/assets/stylesheets/**/*.*css*'] : [file_name]
