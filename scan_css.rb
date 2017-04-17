@@ -35,7 +35,6 @@ class CSSHelper
 
   def strip_characters(selector)
     selector = selector.lstrip
-
   end
 
   def stop_position(selector)
